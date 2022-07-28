@@ -21,5 +21,5 @@ anchors = soup.find_all('a')
     # print('yes')
 for link in soup.find_all('a',
                           attrs={'href': re.compile("udemy.com")}):
-    ud = link.get('href')
-    print(ud)
+    udms = link.get('href')
+    print(udms)
